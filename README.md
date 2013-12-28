@@ -5,6 +5,8 @@ Testing Library to Help You Verify Whether You're IOC Container Has Properly Res
 
 **This Project is still under development, check back later for the cool stuff.**
 
+![The adorable Slowpoke](https://github.com/holymoo/Slowpoke/blob/master/Documentation/Slowpoke.png?raw=true)
+
 What is this?
 -------------
 
