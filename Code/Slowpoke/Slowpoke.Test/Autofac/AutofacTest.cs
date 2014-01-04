@@ -14,8 +14,8 @@ namespace Slowpoke.Test.Autofac
             var builder = new ContainerBuilder();
             builder.RegisterType<Math>().As<IMath>();
             var container = builder.Build();
-            var slowpoke = new AutofacResolver();
 
+            var slowpoke = new AutofacResolver();
             slowpoke.Resolve(typeof(IMath), container);
         }
     }

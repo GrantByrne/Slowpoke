@@ -13,8 +13,8 @@ namespace Slowpoke.Test.Ninject
         {
             IKernel kernel = new StandardKernel();
             kernel.Bind<IMath>().To<Math>();
-            ISlowpoke<IKernel> slowpoke = new NinjectResolver();
 
+            ISlowpoke<IKernel> slowpoke = new NinjectResolver();
             slowpoke.Resolve(typeof(IMath), kernel);
         }
     }
